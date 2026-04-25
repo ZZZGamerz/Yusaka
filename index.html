@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUSAKA | Premium Garment Manufacturing & Fashion</title>
+    <meta name="description"
+        content="YUSAKA - Premium garment manufacturer in Gurugram, India. Delivering quality apparel with precision stitching and scalable production for modern brands.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="Logo/yusaka_logo.png">
+</head>
+
+<body>
+    <div id="scrollProgress"></div>
+    <canvas id="particleCanvas"></canvas>
+    <canvas id="cursorCanvas"></canvas>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="logo">YUSAKA</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#products">Collection</a>
+            <a href="#services">B2B</a>
+            <a href="#contact" class="btn-outline">Get Quote</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="reveal-text">YUSAKA</h1>
+                <h2 class="reveal-text-sub">Crafted with Precision</h2>
+                <p class="fade-in">Premium garments manufactured in Gurugram for businesses and modern brands.</p>
+                <div class="hero-btns fade-in">
+                    <a href="#products" class="btn-primary">View Collection</a>
+                    <a href="#contact" class="btn-secondary">Bulk Orders</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="spotlight"></div>
+                <!-- This will be a high-quality placeholder for the 3D hoodie -->
+                <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1974&auto=format&fit=crop"
+                    alt="Premium Hoodie" class="floating-model">
+            </div>
+        </section>
+
+        <!-- Trust Bar -->
+        <section class="trust-bar">
+            <div class="trust-item"><span>✔</span> Gurugram Based</div>
+            <div class="trust-item"><span>✔</span> Premium Fabric</div>
+            <div class="trust-item"><span>✔</span> Bulk Orders</div>
+            <div class="trust-item"><span>✔</span> Fast Delivery</div>
+            <div class="trust-item"><span>✔</span> Custom Branding</div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-grid">
+                <div class="about-text scroll-reveal">
+                    <h3>Legacy of Quality</h3>
+                    <p>YUSAKA is a modern garment manufacturer delivering quality apparel with precision stitching,
+                        premium materials, and scalable production.</p>
+                    <p>Based in the industrial heart of Gurugram, we bridge the gap between high-end fashion aesthetics
+                        and industrial-scale manufacturing reliability.</p>
+                </div>
+                <div class="about-visual scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1558770147-d2a384e1ad85?q=80&w=2070&auto=format&fit=crop"
+                        alt="Manufacturing Process">
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section id="products" class="product-section">
+            <div class="section-header scroll-reveal">
+                <h2>Product Showcase</h2>
+                <p>Luxury manufacturing for every need.</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card scroll-reveal">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2080&auto=format&fit=crop"
+                            alt="T-Shirts">
+                    </div>
+                    <h4>T-Shirts</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1974&auto=format&fit=crop"
+                            alt="Hoodies">
+                    </div>
+                    <h4>Hoodies</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1598033129183-c4f50c7176c8?q=80&w=1925&auto=format&fit=crop"
+                            alt="Shirts">
+                    </div>
+                    <h4>Shirts</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?q=80&w=2080&auto=format&fit=crop"
+                            alt="Uniforms">
+                    </div>
+                    <h4>Uniforms</h4>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1621335829175-95f437384d7c?q=80&w=1974&auto=format&fit=crop"
+                            alt="Kidswear">
+                    </div>
+                    <h4>Kidswear</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1515347623372-9458d0d4e097?q=80&w=2071&auto=format&fit=crop"
+                            alt="Women's Wear">
+                    </div>
+                    <h4>Women's Wear</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1626497741458-433f58996e9c?q=80&w=1964&auto=format&fit=crop"
+                            alt="Custom Printing">
+                    </div>
+                    <h4>Custom Printing</h4>
+                </div>
+                <div class="product-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop"
+                            alt="Corporate Orders">
+                    </div>
+                    <h4>Corporate Orders</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-section">
+            <div class="section-header scroll-reveal">
+                <h2>Why Yusaka</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card scroll-reveal">
+                    <div class="icon">₹</div>
+                    <h5>Direct Pricing</h5>
+                    <p>Manufacturer-direct rates without middleman costs.</p>
+                </div>
+                <div class="why-card scroll-reveal">
+                    <div class="icon">📦</div>
+                    <h5>Bulk Supply</h5>
+                    <p>Scalable production lines to meet any demand.</p>
+                </div>
+                <div class="why-card scroll-reveal">
+                    <div class="icon">🛡️</div>
+                    <h5>Quality Checks</h5>
+                    <p>Rigorous multi-stage quality control protocols.</p>
+                </div>
+                <div class="why-card scroll-reveal">
+                    <div class="icon">⏰</div>
+                    <h5>Timely Delivery</h5>
+                    <p>Optimized logistics for on-time project completion.</p>
+                </div>
+                <div class="why-card scroll-reveal">
+                    <div class="icon">🎨</div>
+                    <h5>Custom Designs</h5>
+                    <p>Expert designers to bring your vision to life.</p>
+                </div>
+                <div class="why-card scroll-reveal">
+                    <div class="icon">👥</div>
+                    <h5>Experienced Team</h5>
+                    <p>Decades of collective experience in garment manufacturing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lookbook Section -->
+        <section class="lookbook-section">
+            <div class="section-header scroll-reveal">
+                <h2>Lookbook</h2>
+                <p>Editorial perspective on our craftsmanship.</p>
+            </div>
+            <div class="lookbook-gallery">
+                <div class="lookbook-item large scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop"
+                        alt="Lookbook 1">
+                </div>
+                <div class="lookbook-item scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1539106609512-725e3652e361?q=80&w=1974&auto=format&fit=crop"
+                        alt="Lookbook 2">
+                </div>
+                <div class="lookbook-item scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1976&auto=format&fit=crop"
+                        alt="Lookbook 3">
+                </div>
+                <div class="lookbook-item wide scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b830c6050?q=80&w=2071&auto=format&fit=crop"
+                        alt="Lookbook 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Bulk Order CTA -->
+        <section class="bulk-cta">
+            <div class="cta-content scroll-reveal">
+                <h2>Need Bulk Garments for Your Business?</h2>
+                <div class="cta-btns">
+                    <a href="#contact" class="btn-primary">Get Quote</a>
+                    <a href="https://wa.me/yournumber" class="btn-outline-white">WhatsApp Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-grid">
+                <div class="contact-info scroll-reveal">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to start your next production? Contact us today.</p>
+                    <div class="info-item">
+                        <strong>Location</strong>
+                        <span>Gurugram, Haryana, India</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Email</strong>
+                        <span>hello@yusaka.com</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Phone</strong>
+                        <span>+91 99999 99999</span>
+                    </div>
+                </div>
+                <div class="contact-form scroll-reveal">
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Inquiry Type</option>
+                                <option value="bulk">Bulk Order</option>
+                                <option value="custom">Custom Design</option>
+                                <option value="partnership">B2B Partnership</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">YUSAKA</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>&copy; 2026 YUSAKA. Crafted in Gurugram.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
