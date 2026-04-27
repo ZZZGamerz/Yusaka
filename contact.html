@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | YUSAKA</title>
+    <meta name="description" content="Get in touch with YUSAKA - Premium garment manufacturer in Gurugram. Bulk orders, custom manufacturing, and partnership inquiries.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="Logo/yusaka_logo.png" alt="Yusaka Logo" style="width:50px" height="50px">
+                </a>
+            </div>
+            <div class="logo">YUSAKA</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="lookbook.html">Lookbook</a></li>
+            <li><a href="contact.html" class="btn-outline">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="hero-mini">
+        <div class="hero-glow"></div>
+        <h1 class="fade-up">Contact Us</h1>
+    </header>
+
+    <section class="contact">
+        <div class="contact-container scroll-reveal">
+            <div class="contact-info">
+                <h2>Let's Talk Business</h2>
+                <p>Partner with us for your manufacturing needs. We deliver quality at scale.</p>
+                <div class="info-blocks">
+                    <div class="info-block">
+                        <h5>Location</h5>
+                        <p>Gurugram, Haryana, India</p>
+                    </div>
+                    <div class="info-block">
+                        <h5>Email</h5>
+                        <p>hello@yusaka.in</p>
+                    </div>
+                    <div class="info-block">
+                        <h5>Phone</h5>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label>Company Name</label>
+                    <input type="text" placeholder="Enter your company name">
+                </div>
+                <div class="form-group">
+                    <label>Inquiry Type</label>
+                    <select required>
+                        <option value="" disabled selected>Select Inquiry Type</option>
+                        <option value="bulk">Bulk Manufacturing</option>
+                        <option value="custom">Custom Merchandise</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea placeholder="Tell us about your requirements" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary"><span>Send Inquiry</span></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>YUSAKA</h2>
+                <p>Crafted with Precision.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Founders</h4>
+                <p>Kapil Joyee</p>
+                <p>Yukti Joyee</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Yusaka Manufacturing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <canvas id="bg-canvas"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>
